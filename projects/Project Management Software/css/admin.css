@@ -1,0 +1,82 @@
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.admin-table th {
+    background-color: #f8f9fa;
+}
+
+.admin-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.admin-card-header {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.pending-row {
+    background-color: #fff3cd;
+}
+
+.team-lead-toggle {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.status-badge {
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.status-active { background-color: #d1e7dd; }
+.status-inactive { background-color: #e9ecef; }
+
+.action-buttons {
+    white-space: nowrap;
+}
+
+.action-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-approve { background-color: #28a745; color: white; }
+.button-reject { background-color: #dc3545; color: white; }
+.button-edit { background-color: #0d6efd; color: white; }
+
+@media (max-width: 768px) {
+    .admin-table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    .action-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .action-button {
+        margin-right: 0;
+    }
+}

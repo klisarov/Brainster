@@ -1,0 +1,58 @@
+.task-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.status-column {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    min-height: 200px;
+}
+
+@media (max-width: 768px) {
+    .col-md-3 {
+        width: 100%;
+    }
+    
+    .status-column {
+        margin: 10px 0;
+    }
+    
+    .task-details {
+        padding: 10px;
+    }
+    
+    .container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    .modal-dialog {
+        margin: 10px;
+    }
+}
+
+.hidden { 
+    display: none;
+}
+
+.task_column {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    min-height: 200px;
+}
