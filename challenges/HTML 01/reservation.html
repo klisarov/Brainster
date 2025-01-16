@@ -1,0 +1,61 @@
+<!-- Luka Krstev | Brainster Group FS18, Challenge 01 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation | Challenge 01</title>
+  </head>
+  <body>
+    <header>
+      <a href="/index.html">← Back link</a>
+    </header>
+    <br />
+    <center>
+      <h1><u>Contact Us/Make a Reservation</u></h1>
+      <!-- In our form, we are using specific yet pretty self-explanatory types of inputs. -->
+      <!-- The date type of input gives the user a small calendar interface where the user can choose a date. -->
+      <!-- Time type of input also gives the user an interface to choose a specific time. -->
+      <!-- The number type of input allows the user to only choose a number. This type of input can be modified for a specific field of numbers (not shown in the exercise) -->
+      <form action="mailto:klisarovluka@gmail.com" method="post" id="reserve">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="mail" /><br /><br />
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" /><br /><br />
+        <label for="date">Date:</label>
+        <input type="date" /><br /><br />
+        <label for="time">Time:</label>
+        <input type="time" /><br /><br />
+        <label for="numpeople">Number of People:</label>
+        <input type="number" /><br /><br />
+        <label for="seating">Seating Preference:</label>
+        <input type="radio" id="where" name="where" value="Indoor" />
+        <label for="Indoor">Indoor</label>
+        <input type="radio" id="where" name="where" value="Outdoor" />
+        <label for="Outdoor">Outdoor</label>
+        <br /><br />
+        <label for="requests">Special Requests:</label>
+        <input type="checkbox" id="vegeoption" name="vegeoption" />
+        <label for="vegeoption">Vegetarian Options</label>
+        <input type="checkbox" id="allergy" name="allergy" />
+        <label for="allergy">Allergy Friendly</label>
+        <input type="checkbox" id="seat" name="seat" />
+        <label for="seat">Window Seat</label>
+        <input type="checkbox" id="highchair" name="highchair" />
+        <label for="highchair">Need a Highchair</label>
+        <input type="checkbox" id="special" name="special" />
+        <label for="special">Celebrating a Special Occasion</label><br /><br />
+        <label for="notes">Additional Notes:</label><br />
+        <textarea name="notes" id="notes" cols="30" rows=5"></textarea><br>
+        <button>Submit Reservation</button>
+      </form>
+      <br><br>
+      <footer>
+        <p>Follow us on <a href="https://www.instagram.com">Instagram</a>!</p>
+        <p>&copy; 2024 The Urban Garden Restaurant. All rights reserved.</p>
+      </footer>
+    </center>
+  </body>
+</html>
